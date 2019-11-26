@@ -2,7 +2,7 @@ cask 'graalvm-ce' do
   version '19.3.0'
   
   # github.com/oracle/graal was verified as official when first introduced to the cask
-  url "https://github.com/oracle/graal/releases/download/vm-#{version.downcase}/graalvm-ce-darwin-amd64-#{version.downcase}.tar.gz"
+  url "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java8-darwin-amd64-19.3.0.tar.gz"
   appcast 'https://github.com/oracle/graal/releases.atom'
   name 'GraalVM Community Edition'
   homepage 'https://www.graalvm.org/'
